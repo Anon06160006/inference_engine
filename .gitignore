@@ -1,0 +1,7 @@
+*.class
+example_files/.~lock*#
+GrammarTest/Test/*
+*/.~lock.*
+src/subjecttraces
+src/results
+
