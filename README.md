@@ -10,12 +10,12 @@ This repo contains the inference engine, datasets and priors and configuration f
 
 ### 1. Clone the repo.
 
-To clone from an anonymized GitHub:
+Clone from an anonymized GitHub and follow instructions there:
 ```
-git clone https://github.com/Anon06160006/inference-engine
+git clone https://github.com/Anon06160006/inference_engine
 ```
 
-Or, to clone from anonymous.4open.science, install Python 3, update SSL certificates, and run: 
+**NOT RECOMMENDED:** to clone from anonymous.4open.science, install Python 3, update SSL certificates, and run: 
 ```
 pip install beautifulsoup4
 pip install lxml
@@ -46,7 +46,7 @@ cd tool_src/; ./py3.sh
 ### 3. Unzip trace archives.
 ```
 unzip study_1/drone_traces/drone_traces.zip -d study_1/drone_traces/
-unzip study_2/subjecttraces/subjecttraces.zip -d study_2/subjecttraces/
+unzip study_2/subjecttraces/subjecttraces.zip -d study_2/
 ```
 
 ### 4. Compile everything:
