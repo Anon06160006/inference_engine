@@ -15,7 +15,7 @@ Clone from an anonymized GitHub and follow instructions there:
 git clone https://github.com/Anon06160006/inference_engine
 ```
 
-**NOT RECOMMENDED:** to clone from anonymous.4open.science, install Python 3, update SSL certificates, and run: 
+<!--- **NOT RECOMMENDED:** to clone from anonymous.4open.science, install Python 3, update SSL certificates, and run: 
 ```
 pip install beautifulsoup4
 pip install lxml
@@ -24,9 +24,10 @@ cd clone-anonymous4open
 python3 clone.py --clone-dir /path/to/save  --target https://anonymous.4open.science/r/838f6ec4-c4c4-4ce7-a7c4-8910c3a73e66/
 ```
 Note that this may take 15+ minutes and that binaries and pdfs will not be fetched.
+--->
 
 ### 2. Download dependencies to ./tool_src/:
-The following dependencies are provided and already reside in tool_src/:
+The following dependencies are provided and already reside in tool_src/. Make sure they are compatible with your machine:
 - commons-lang3-3.9/
 - com.google.guava_1.6.0.jar
 - commons-math3-3.6.1/
@@ -69,9 +70,9 @@ javac Probability_To_Csv.java
 ### 5. Run scripts
 ```
 cd study_1/
-./generate_bag_probabilities.sh      # drone invariants
+. ./generate_bag_probabilities.sh      # drone invariants
 cd study_2/
-./generate_driving_probabilities.sh  # driving invariants
+. ./generate_driving_probabilities.sh  # driving invariants
 ```
 
 ### Collecting and Interpreting Output
